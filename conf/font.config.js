@@ -12,7 +12,8 @@ module.exports = {
     // 'https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css',
     'https://fonts.googleapis.com/css?family=Bitter:300,400,700&display=swap',
     'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap',
-    'https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;700&display=swap'
+    'https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;700&display=swap',
+    'https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&family=LXGW+WenKai+Mono+TC&family=Noto+Serif+TC:wght@634&display=swap'
   ],
 
   // 字体优化配置
@@ -37,7 +38,8 @@ module.exports = {
     '"Source Han Sans SC"',
     'Arial',
     'sans-serif',
-    '"Apple Color Emoji"'
+    '"Apple Color Emoji"',
+    '"LXGW WenKai Mono TC"'
   ],
   // 衬线字体 例如'"LXGW WenKai"'
   FONT_SERIF: [
@@ -50,7 +52,8 @@ module.exports = {
     'serif',
     '"Segoe UI Emoji"',
     '"Segoe UI Symbol"',
-    '"Apple Color Emoji"'
+    '"Apple Color Emoji"',
+    '"Noto Serif TC"'
   ],
   FONT_AWESOME:
     process.env.NEXT_PUBLIC_FONT_AWESOME_PATH ||
